@@ -10,14 +10,13 @@
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-  <div class="wrapper">
-     <img src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg" class="img-responsive" />
-  </div>
-
-  <div class="item">
-    <div class="container">
-      <div class="carousel-caption" style="margin-bottom:25%;">
-        <% include contactheader.ejs %>
+  <div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg" class="img-responsive">
+        <div class="carousel-caption" style="margin-bottom:25%;">
+          <% include contactheader.ejs %>
+        </div>
       </div>
     </div>
   </div>
