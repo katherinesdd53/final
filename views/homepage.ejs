@@ -15,7 +15,8 @@
     <div class="item active">
       <img src="https://static.pexels.com/photos/48606/pexels-photo-48606.jpeg" class="img-responsive">
       <div class="carousel-caption" style="margin-bottom:25%;">
-        <% include homeheader.ejs %>
+        <h1 style="font-size:70px;">Katherine Suazo</h1>
+        <% include nav.ejs %>
       </div>
     </div>
   </div>
@@ -23,7 +24,7 @@
 
   <div class="container">
     <h1 class="text-center" style="margin:50px;"> My Projects Along the Way </h1>
-    <% include cards.ejs %>
+    <% include homecards.ejs %>
   </div>
 
   <div id="mycarousel" class="carousel slide" data-ride="carousel">
@@ -36,6 +37,8 @@
       </div>
     </div>
   </div>
+
+  <% include info.ejs %>
 
   <% include footer.ejs %>
 

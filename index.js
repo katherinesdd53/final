@@ -8,10 +8,22 @@ app.use(express.static("public"));
 
 app.get('/home', function(req, res){
 	res.render('homepage.ejs')
-});
+})
 
 app.get('/blog', function(req, res){
 	res.render('blog.ejs')
+})
+
+app.get('/blog/ttp', function(req, res){
+	res.render('ttp.ejs')
+})
+
+app.get('/blog/programmers', function(req, res){
+	res.render('programmers.ejs')
+})
+
+app.get('/blog/hacker', function(req, res){
+	res.render('hacker.ejs')
 })
 
 app.get('/contact', function(req, res){
